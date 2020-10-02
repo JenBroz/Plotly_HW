@@ -1,5 +1,5 @@
 //Read in samples.json using d3 library 
-var file_path='../samples.json'
+var file_path='samples.json'
 d3.json(file_path).then(function(data){
 	console.log(data);
 	dropDown(data);
